@@ -80,9 +80,10 @@ section h3 {
   border-top: 1px dashed #eee;
 }
 
+/* Verberg bullet points */
 .participants-list {
-  list-style: disc;
-  margin: 8px 0 0 20px;
+  list-style: none;
+  margin: 8px 0 0 0;
   padding: 0;
 }
 
