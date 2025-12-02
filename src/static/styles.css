@@ -74,6 +74,42 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.activity-card .participants-section {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed #eee;
+}
+
+/* Verberg bullet points */
+.participants-list {
+  list-style: none;
+  margin: 8px 0 0 0;
+  padding: 0;
+}
+
+.participants-list li {
+  margin-bottom: 6px;
+  color: #37474f;
+  font-size: 15px;
+}
+
+.participant-badge {
+  display: inline-block;
+  background-color: #e8f4ff;
+  color: #0b3d91;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.no-participants {
+  margin-top: 8px;
+  color: #757575;
+  font-style: italic;
+  font-size: 0.95rem;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
